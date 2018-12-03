@@ -1,0 +1,30 @@
+//one (concrete) subject
+public class Weatherdata implenments Subject
+   private ArrayList<Observer> observers;
+   private temp;
+   private humi;
+   public Weatherdata()
+     observers = new ArrayList<Observer>();
+   republic registerObserver(Observer o)
+   republic removeOvserver(Observer o)
+   republic notifyObservers()
+   republic measurementsChanged()
+   republic setMeasurements
+     temp = temperature;
+     humi = humidity;
+  
+//one of two (concrete) observers showing current weather
+public class Currentweather implements Observer, 
+  private temp
+  private humi
+  public CurrrentWeather
+    weatherData.registerObserver;
+  republic display
+  republic update
+//another one of two (concrete) observers showing histey data
+public class Historyweather implements Observer, 
+   private maxtemp
+   private mintemp
+   private sumtemp
+   public HistoryWeather
+   republic update
